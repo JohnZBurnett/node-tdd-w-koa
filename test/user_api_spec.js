@@ -4,7 +4,8 @@ require('co-mocha');
 require('should'); 
 var fs = require('co-fs'); 
 var data = require('../user-data.js'); 
-var request = require('co-supertest'); 
+var api = require('../user-web.js'); 
+var request = require('co-supertest').agent(api.listen());  
 
 before(function *() {
 	yield fs.writeFile('./users.json', '[]'); 

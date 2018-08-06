@@ -1,1 +1,3 @@
-var koa = require('koa'); 
+var Koa = require('koa'); 
+
+module.exports = new Koa(); 
