@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user_api_spec.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "co-fs": "^1.2.0",
+    "co-mocha": "^1.2.2",
+    "co-supertest": "0.0.10",
+    "koa": "^2.5.2",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3",
+    "supertest": "^3.1.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-builtins": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
